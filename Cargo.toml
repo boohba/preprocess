@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "preprocess",
+    "preprocess-compress",
+    "preprocess-hash",
+    "examples/trunk"
+]

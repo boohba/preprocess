@@ -1,0 +1,11 @@
+[package]
+name = "example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = "0.19"
+
+[build-dependencies]
+preprocess = { version = "0.1.0", path = "../../preprocess" }
+preprocess-hash = { version = "0.1.0", path = "../../preprocess-hash" }
