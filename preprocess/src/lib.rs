@@ -76,7 +76,7 @@ pub fn run(config: Config) {
         return;
     }
 
-    create_dir_all(&config.dist).expect("error creating destination dir");
+    create_dir_all(&config.dist).expect("error creating dist directory");
 
     let mut result = Vec::new();
 
